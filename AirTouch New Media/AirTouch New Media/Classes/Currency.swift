@@ -9,7 +9,8 @@
 import Foundation
 
 struct Currency {
-    let EUR = "EUR"
-    let USD = "USD"
-    let CAD = "CAD"
+    static let EUR = "EUR"
+    static let USD = "USD"
+    static let AUD = "AUD"
+    static let CAD = "CAD"
 }

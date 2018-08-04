@@ -7,3 +7,6 @@
 //
 
 import Foundation
+
+internal let conversionsURL = "http://gnb.dev.airtouchmedia.com/rates.json"
+internal let transactionsURL = "http://gnb.dev.airtouchmedia.com/transactions.json"

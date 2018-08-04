@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272D1C602113B23D007E22D1 /* RAWProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D1C5F2113B23D007E22D1 /* RAWProductData.swift */; };
+		272D1C622113B281007E22D1 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D1C612113B281007E22D1 /* Currency.swift */; };
+		272D1C652113B4E5007E22D1 /* GetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D1C642113B4E5007E22D1 /* GetService.swift */; };
+		272D1C672113B5BD007E22D1 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D1C662113B5BD007E22D1 /* Urls.swift */; };
+		272D1C692113C6A6007E22D1 /* Array+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D1C682113C6A6007E22D1 /* Array+Helpers.swift */; };
+		272D1C6B2113C775007E22D1 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D1C6A2113C775007E22D1 /* TransactionCell.swift */; };
+		272D1C6D2114777D007E22D1 /* ConversionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D1C6C2114777D007E22D1 /* ConversionCalculator.swift */; };
 		27B19740211375F900164695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B1973F211375F900164695 /* AppDelegate.swift */; };
 		27B19742211375F900164695 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B19741211375F900164695 /* ViewController.swift */; };
 		27B19745211375F900164695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B19743211375F900164695 /* Main.storyboard */; };
 		27B19747211375FA00164695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B19746211375FA00164695 /* Assets.xcassets */; };
 		27B1974A211375FA00164695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B19748211375FA00164695 /* LaunchScreen.storyboard */; };
+		27B1975221137D4100164695 /* RAWConversionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B1975121137D4100164695 /* RAWConversionData.swift */; };
+		27B1975421137FE000164695 /* Double+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B1975321137FE000164695 /* Double+Helpers.swift */; };
+		3BEAF43B415AC85AFD3DBC76 /* Pods_AirTouch_New_Media.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E4B1296A94B00C164DAA22 /* Pods_AirTouch_New_Media.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DA15FFF1D7A3DD434C2D07F /* Pods-AirTouch New Media.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirTouch New Media.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirTouch New Media/Pods-AirTouch New Media.release.xcconfig"; sourceTree = "<group>"; };
+		13E4B1296A94B00C164DAA22 /* Pods_AirTouch_New_Media.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirTouch_New_Media.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		272D1C5F2113B23D007E22D1 /* RAWProductData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWProductData.swift; sourceTree = "<group>"; };
+		272D1C612113B281007E22D1 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		272D1C642113B4E5007E22D1 /* GetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetService.swift; sourceTree = "<group>"; };
+		272D1C662113B5BD007E22D1 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		272D1C682113C6A6007E22D1 /* Array+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Helpers.swift"; sourceTree = "<group>"; };
+		272D1C6A2113C775007E22D1 /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		272D1C6C2114777D007E22D1 /* ConversionCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionCalculator.swift; sourceTree = "<group>"; };
 		27B1973C211375F900164695 /* AirTouch New Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirTouch New Media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B1973F211375F900164695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27B19741211375F900164695 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +41,9 @@
 		27B19746211375FA00164695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27B19749211375FA00164695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27B1974B211375FA00164695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B1975121137D4100164695 /* RAWConversionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWConversionData.swift; sourceTree = "<group>"; };
+		27B1975321137FE000164695 /* Double+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Helpers.swift"; sourceTree = "<group>"; };
+		3823A29604CD7CBB38F9A15C /* Pods-AirTouch New Media.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirTouch New Media.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirTouch New Media/Pods-AirTouch New Media.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BEAF43B415AC85AFD3DBC76 /* Pods_AirTouch_New_Media.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		272D1C5E2113B20A007E22D1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				27B1975121137D4100164695 /* RAWConversionData.swift */,
+				272D1C5F2113B23D007E22D1 /* RAWProductData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		272D1C632113B4D5007E22D1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				272D1C642113B4E5007E22D1 /* GetService.swift */,
+				272D1C662113B5BD007E22D1 /* Urls.swift */,
+				272D1C6C2114777D007E22D1 /* ConversionCalculator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		27B19733211375F900164695 = {
 			isa = PBXGroup;
 			children = (
 				27B1973E211375F900164695 /* AirTouch New Media */,
 				27B1973D211375F900164695 /* Products */,
+				C2B5D17A385C1AD5B7A6FE1A /* Pods */,
+				91F24FB5DF55E825F15D2FB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +98,53 @@
 		27B1973E211375F900164695 /* AirTouch New Media */ = {
 			isa = PBXGroup;
 			children = (
+				272D1C632113B4D5007E22D1 /* Services */,
+				272D1C5E2113B20A007E22D1 /* Data */,
+				27B19758211380EA00164695 /* Classes */,
+				27B1975521137FEB00164695 /* Helpers */,
 				27B1973F211375F900164695 /* AppDelegate.swift */,
 				27B19741211375F900164695 /* ViewController.swift */,
 				27B19743211375F900164695 /* Main.storyboard */,
 				27B19746211375FA00164695 /* Assets.xcassets */,
 				27B19748211375FA00164695 /* LaunchScreen.storyboard */,
 				27B1974B211375FA00164695 /* Info.plist */,
+				272D1C6A2113C775007E22D1 /* TransactionCell.swift */,
 			);
 			path = "AirTouch New Media";
+			sourceTree = "<group>";
+		};
+		27B1975521137FEB00164695 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				27B1975321137FE000164695 /* Double+Helpers.swift */,
+				272D1C682113C6A6007E22D1 /* Array+Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		27B19758211380EA00164695 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				272D1C612113B281007E22D1 /* Currency.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		91F24FB5DF55E825F15D2FB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13E4B1296A94B00C164DAA22 /* Pods_AirTouch_New_Media.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2B5D17A385C1AD5B7A6FE1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3823A29604CD7CBB38F9A15C /* Pods-AirTouch New Media.debug.xcconfig */,
+				0DA15FFF1D7A3DD434C2D07F /* Pods-AirTouch New Media.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27B1974E211375FA00164695 /* Build configuration list for PBXNativeTarget "AirTouch New Media" */;
 			buildPhases = (
+				883DFD79A063F59CF8984E78 /* [CP] Check Pods Manifest.lock */,
 				27B19738211375F900164695 /* Sources */,
 				27B19739211375F900164695 /* Frameworks */,
 				27B1973A211375F900164695 /* Resources */,
+				1A3C109A9D6227B668547F00 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +215,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A3C109A9D6227B668547F00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AirTouch New Media/Pods-AirTouch New Media-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirTouch New Media/Pods-AirTouch New Media-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		883DFD79A063F59CF8984E78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirTouch New Media-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27B19738211375F900164695 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				272D1C672113B5BD007E22D1 /* Urls.swift in Sources */,
+				272D1C6B2113C775007E22D1 /* TransactionCell.swift in Sources */,
+				27B1975421137FE000164695 /* Double+Helpers.swift in Sources */,
+				27B1975221137D4100164695 /* RAWConversionData.swift in Sources */,
+				272D1C622113B281007E22D1 /* Currency.swift in Sources */,
+				272D1C692113C6A6007E22D1 /* Array+Helpers.swift in Sources */,
+				272D1C652113B4E5007E22D1 /* GetService.swift in Sources */,
 				27B19742211375F900164695 /* ViewController.swift in Sources */,
+				272D1C6D2114777D007E22D1 /* ConversionCalculator.swift in Sources */,
 				27B19740211375F900164695 /* AppDelegate.swift in Sources */,
+				272D1C602113B23D007E22D1 /* RAWProductData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +413,7 @@
 		};
 		27B1974F211375FA00164695 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3823A29604CD7CBB38F9A15C /* Pods-AirTouch New Media.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +432,7 @@
 		};
 		27B19750211375FA00164695 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA15FFF1D7A3DD434C2D07F /* Pods-AirTouch New Media.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
